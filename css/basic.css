@@ -1,0 +1,37 @@
+:root{
+    --fontInter:"Inter", sans-serif;
+    --fontMulish:"Mulish", sans-serif;
+    --fontPD:"Playfair Display"
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    overflow-x:hidden;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
