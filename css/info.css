@@ -1,0 +1,28 @@
+.info {
+    margin-top: 42px;
+}
+
+.container {}
+
+.info__content {}
+
+.info__block-img {}
+
+.info__block-text {}
+
+.info__title {
+    font-family: var(--fontPD);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+
+.info__text {
+    font-family: var(--fontMulish);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 176%;
+    color: #7d7987;
+}
+
+.info__btn {}
