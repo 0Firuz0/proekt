@@ -42,7 +42,7 @@
     font-family: var(--fontInter);
     font-weight: 500;
     font-size: 15px;
-    padding: 8px 36px;
+    padding: 13px 36px;
 }
 
 .btn{
@@ -52,3 +52,27 @@
     cursor: pointer;
 }
 
+.burger{
+    display: none;
+}
+
+@media(max-width:780px){
+    .burger{
+        display: flex;
+        row-gap: 10px   ;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 24px;
+        margin-right: 19px;
+    }
+    .burger__line{
+border-radius: 4px;
+width: 47px;
+height: 5px;
+background-color: #fb8f1d;
+    }
+
+    .nav{
+        display: none;
+    }
+}

@@ -16,7 +16,7 @@
 .grettings__title {
     font-family: var(--fontPD);
     font-weight: 700;
-    font-size: 64px;
+    font-size: clamp(3.125rem, 2.93rem + 0.892vw, 4rem);
     line-height: 125%;
     color: #202336;
 }
@@ -48,4 +48,21 @@
 
 .grettings__block-img {
 
+}
+
+@media(max-width:800px){
+    .grettings__desc{
+        flex-direction: column;
+    }
+
+    .line{
+        margin-top: 34px;
+    }
+
+    .grettings__text{
+        margin-top: 27px;
+    }
+    .grettings__block-img{
+        margin: 41px 0px 0px 0px;
+    }
 }

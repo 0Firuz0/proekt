@@ -4,16 +4,22 @@
 
 .container {}
 
-.info__content {}
+.info__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .info__block-img {}
 
-.info__block-text {}
+.info__block-text {
+    max-width: 481px;
+}
 
 .info__title {
     font-family: var(--fontPD);
     font-weight: 700;
-    font-size: 36px;
+    font-size: clamp(1.875rem, 1.791rem + 0.382vw, 2.25rem);
     color: #000;
 }
 
@@ -25,4 +31,14 @@
     color: #7d7987;
 }
 
-.info__btn {}
+.info__btn {
+    border-radius: 8px;
+    padding:8px 37px 8px 39px ;
+}  
+
+
+@media(max-width:1160px){
+    .info__content{
+        flex-direction: column-reverse;
+    }
+}

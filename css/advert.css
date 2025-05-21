@@ -1,0 +1,50 @@
+.advert {
+    margin-top: 41px;
+}
+.container {
+
+}
+.advert__content {
+
+}
+.advert__main-title {
+    display: flex;
+    justify-content: space-between;
+}
+.advert__title {
+font-family: var(--fontPD);
+font-weight: 700;
+font-size: clamp(1.875rem, 1.791rem + 0.382vw, 2.25rem);
+line-height: 139%;
+color: #000;
+}
+.advert__nav-text {
+font-family: var(--fontInter);
+font-weight: 600;
+font-size: 17px;
+line-height: 353%;
+color: #fb8f1d;
+}
+.advert__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 124px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.advert__item {
+
+}
+
+@media(max-width:585px){
+    .advert__list{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .advert__main-title{
+        flex-direction: column;
+}
+
+}
